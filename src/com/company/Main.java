@@ -26,6 +26,7 @@ public class Main {
 
             //This "input" is assigned to a string type:
             //This program will now stop to allow the user to give input.
+
             String name  = input.nextLine();
 
             // see if name is in the hashmap.
@@ -73,6 +74,7 @@ public class Main {
             while (true) {
                 //Then say, "What would you like to do:"
                 System.out.println("What would you like to do:");
+
                 System.out.println("1) Check my balance 2) Withdraw funds 3) Cancel 4) Remove Account");
                 System.out.println("Please a select number: (1, 2, 3 or 4) and press return.");
 
@@ -96,6 +98,7 @@ public class Main {
                 } else if (choice.equals("3")) {
                     System.out.println("Thank you and please come again.");
                     break;
+
                 } else if (choice.equals("4")) {
                     System.out.println("You are about to remove your account, are you sure you want to do this?");
                     System.out.println("Please press y to remove or n to keep your account.");
